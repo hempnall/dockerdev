@@ -1,0 +1,13 @@
+$TTL 604800
+@	IN	SOA	ns1.dev.local. admin.dev.local. (
+	1 		; serial
+	604800		; refresh
+	86400		; retry
+	2419200		; expire
+	604800	)	; negative cache	
+@	IN	NS	ns1.
+docker-registry	IN	A	192.168.81.100
+gitlab	IN	A	192.168.81.100
+aptget	IN	A	192.168.81.101
+jenkins	IN	A	192.168.81.102
+gems	IN	A	192.168.81.103

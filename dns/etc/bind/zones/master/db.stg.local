@@ -1,0 +1,9 @@
+$TTL 604800
+@	IN	SOA	ns1.stg.local. admin.stg.local. (
+	1;
+	604800;
+	86400;
+	2419200;
+	604800)
+@	IN	NS	ns1.
+docker-host	IN	A	192.168.82.100

@@ -1,0 +1,16 @@
+zone "dev.local" {
+	type master;
+	file "/etc/bind/zones/master/db.dev.local";
+};
+
+zone "stg.local" {
+	type master;
+	file "/etc/bind/zones/master/db.stg.local";
+};
+
+
+zone "prd.local" {
+	type master;
+	file "/etc/bind/zones/master/db.prd.local";
+};
+
